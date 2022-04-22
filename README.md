@@ -4,6 +4,13 @@
 
 ## Links and Resources
 
+- Roger Wells
+- Benjamin Carter
+- Thomas Basham
+- Nicholas Mercado
+- Morning Lecture
+- geeksforgeeks
+
 <!-- PORT - Port Number
 DATABASE_URL - URL to the running Postgres instance/db
 How to initialize/run your application (where applicable)
@@ -22,8 +29,7 @@ Tests -->
       - GOOGLE, PEER, TA
    - If Pass, proceed to next formula.
 
-### Class notes
-
-#### iterate character by character
-
 <!-- Describe any tests that you did not complete, skipped, etc -->
+
+The last two tests were the most challenging.
+Before that, the tests seemed to be pretty helpful into what to do next, barring the `__repr__` wrapper. Had to google that, but don't know exactly why that's needed.
