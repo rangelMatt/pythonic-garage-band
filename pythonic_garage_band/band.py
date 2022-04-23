@@ -1,5 +1,8 @@
 # from abc import ABC
 
+from unicodedata import name
+
+
 class Band():
     instances = []
 
@@ -8,6 +11,10 @@ class Band():
         self.members = members
         Band.instances.append(self)
         # self.__class__.all_bands.append(self)
+
+    def __repr__(self) -> str:
+        self.name = name
+        return f"My name is {self.name} and I play bass"
 
     def play_solos(self):
       solos = []
