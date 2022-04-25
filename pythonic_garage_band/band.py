@@ -12,9 +12,10 @@ class Band():
         Band.instances.append(self)
         # self.__class__.all_bands.append(self)
 
-    def __repr__(self) -> str:
-        self.name = name
-        return f"My name is {self.name} and I play bass"
+    # below was starting the attempt to refactor, did not complete
+    # def __repr__(self) -> str:
+    #     self.name = name
+    #     return f"My name is {self.name} and I play bass"
 
     def play_solos(self):
       solos = []
